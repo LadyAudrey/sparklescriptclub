@@ -8,7 +8,7 @@ export default function Home() {
         <div className="content">
           <h2 className="place-self-center">Magic 8-Ball game</h2>
           <Image
-            src="/Graphics/8Ball.svg"
+            src="/graphics/8Ball.svg"
             height={300}
             width={300}
             alt="8-Ball Graphic"
@@ -18,10 +18,10 @@ export default function Home() {
         <div className="content">
           <h2>Debugging Optimism</h2>
           <Image
-            src="/Graphics/Duckie.svg"
+            src="/graphics/Duckie.svg"
             height={200}
             width={200}
-            alt="8-Ball Graphic"
+            alt="Duckie"
           ></Image>
         </div>
       </div>
