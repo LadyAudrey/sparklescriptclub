@@ -6,10 +6,16 @@
     h1 {
         @apply text-6xl
     }
-h2 {
-    @apply text-4xl mb-10
-}
-.content {
-    @apply flex flex-col items-center
-}
+    h2 {
+        @apply text-5xl
+    }
+    h3 {
+        @apply text-3xl
+    }
+    p {
+        @apply text-xl
+    }
+    .content {
+        @apply flex flex-col items-center
+    }
 }
