@@ -1,18 +1,20 @@
 # SelfWatch
 
-Empowering individuals to take control of their mental health by providing a personal monitoring and support system.
+A whimsical app with tools or games to keep an open mindset
 
 ## 💡 Inspiration
 
-The increasing prevalence of mental health issues and the lack of accessible and personalised support motivated us to undertake this project. We wanted to create a tool that would empower individuals to monitor their mental health and provide them with resources and support when needed.
+I apply a lot of thought work to learning how to code and debugging. As such, I don't have as much of the emotional roller coasters that junior developers typically do. I want to share my knowledge and perspective to help other developers have an easier learning curve.
 
 ## 🤔 Purpose
 
-SelfWatch was designed to help people practice self-care more by providing with trackers and reminders when they haven't checked-in for the day.
+Help devs stay in a better headspace while getting through the learning curves of becoming a software engineer.
 
 ## What it does
 
-SelfWatch is a web application that allows users to track their mental health and well-being on a daily basis. Users can input their mood, energy levels, sleep quality, and other relevant factors, and the app will generate personalised insights and recommendations based on the data. Users can set goals and receive reminders to engage in self-care activities.
+A feature of questions to help devs ask more questions and to stay curious about debugging. It also has suggestions to take breaks and to take care of biological needs
+
+Another feature is a whimsical magic 8 ball game. The answers are designed to encourage developers to ask more questions and to stay curious
 
 ## 🎨 Design
 
@@ -35,23 +37,26 @@ SelfWatch was first designed using Figma before it was coded. Below are the wire
 
 ## ✨ Proud Achievements
 
-We are proud of successfully developing a comprehensive mental health monitoring and support system. We were able to implement accurate mood tracking algorithms and provide personalised insights to users.
+Successful implementation of React structure and Next app router.
 
 ## 😤 Challenges Encountered
 
-Some of the changes that the team faced are:
-
-- Working with Auth0 for the first time. It proved quite challenging to work with Auth0 2.0
--
+I accidentally made the app with the pages router instead of app router. I restarted it and kept it in the same Github repo.
 
 ## 🙌 Insights from SelfWatch
 
-As our team consisted of members with different abilities, we were able to fill in gaps in our knowledge and learn something new from each other in React and other technologies. There were also new things that we had to research and self learn like React-routers.
+This is a pretty simple app and I'm pleased that I was able to make it so easily.
 
 ## 🚀 What's next for SelfWatch
 
-The next thing for SelfWatch is adding more features such as being able to track the user's sleep habits and supplements that they take.
+8-ball game
+
+- Add a pop-up upon loading explaining that this is a game, not divination
+- More answers
+
+Debugging Support
+
+- animate the duck
+- animate the celebration of finding the bug
 
 #### NOTE
-
-Note ⚠️ — API credentials have been revoked. If you want to run the same on your local, use your own credentials.
