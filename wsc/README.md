@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SelfWatch
 
-## Getting Started
+Empowering individuals to take control of their mental health by providing a personal monitoring and support system.
 
-First, run the development server:
+## 💡 Inspiration
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The increasing prevalence of mental health issues and the lack of accessible and personalised support motivated us to undertake this project. We wanted to create a tool that would empower individuals to monitor their mental health and provide them with resources and support when needed.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🤔 Purpose
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+SelfWatch was designed to help people practice self-care more by providing with trackers and reminders when they haven't checked-in for the day.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## What it does
 
-## Learn More
+SelfWatch is a web application that allows users to track their mental health and well-being on a daily basis. Users can input their mood, energy levels, sleep quality, and other relevant factors, and the app will generate personalised insights and recommendations based on the data. Users can set goals and receive reminders to engage in self-care activities.
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Design
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+SelfWatch was first designed using Figma before it was coded. Below are the wireframes and designs that the team used.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<img width="1303" alt="Screenshot" src="/WireFramesEtc/8Ball _ LandingPage.svg">
 
-## Deploy on Vercel
+<img width="805" alt="Screenshot " src="/WireFramesEtc/8Ball _ LandingPage.svg">
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img width="1292" alt="Screenshot" src="/WireFramesEtc/8Ball _ LandingPage.svg">
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img width="628" alt="Screenshot" src="/WireFramesEtc/8Ball _ LandingPage.svg">
+
+## 🛠 How we Built it
+
+- React
+- Next
+- Vite
+- Tailwind
+
+## ✨ Proud Achievements
+
+We are proud of successfully developing a comprehensive mental health monitoring and support system. We were able to implement accurate mood tracking algorithms and provide personalised insights to users.
+
+## 😤 Challenges Encountered
+
+Some of the changes that the team faced are:
+
+- Working with Auth0 for the first time. It proved quite challenging to work with Auth0 2.0
+-
+
+## 🙌 Insights from SelfWatch
+
+As our team consisted of members with different abilities, we were able to fill in gaps in our knowledge and learn something new from each other in React and other technologies. There were also new things that we had to research and self learn like React-routers.
+
+## 🚀 What's next for SelfWatch
+
+The next thing for SelfWatch is adding more features such as being able to track the user's sleep habits and supplements that they take.
+
+#### NOTE
+
+Note ⚠️ — API credentials have been revoked. If you want to run the same on your local, use your own credentials.
