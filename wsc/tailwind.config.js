@@ -23,6 +23,7 @@ module.exports = {
       aqua3: "#25705a",
       aqua4: "#0e543f",
       aqua5: "#003827",
+      lime0: "#f4faeb",
       lime1: "#c9ea9c",
       lime2: "#9ac361",
       lime3: "#709c34",

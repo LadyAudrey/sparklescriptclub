@@ -43,10 +43,10 @@ export default function eight_ball() {
           alt="cute duck"
           className="col-start-2 col-span-1 row-start-1 row-span-1 m-20"
         ></Image>
-        <h3 className="" onClick={nextQuestion}>
+        <button className="p-5" onClick={nextQuestion}>
           Next Question, Please
-        </h3>
-        <h3 onClick={successAchieved}>I found the Bug!</h3>
+        </button>
+        <button onClick={successAchieved}>I found the Bug!</button>
       </div>
     </div>
   );
