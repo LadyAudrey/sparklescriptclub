@@ -49,6 +49,7 @@ export default function eight_ball() {
           ></Image>
           <button onClick={successAchieved}>I found the Bug!</button>
         </div>
+
       </div>
     </div>
   );

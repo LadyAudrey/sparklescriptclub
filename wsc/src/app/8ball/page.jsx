@@ -27,6 +27,7 @@ export default function eight_ball() {
   // put return statement into p tag
   return (
     <div className="h-screen flex flex-col place-items-center">
+
       <h1>Welcome to Sparkle Script Club!</h1>
       <h2 className="m-10">Magic 8-Ball game</h2>
       <Image
@@ -37,6 +38,7 @@ export default function eight_ball() {
       ></Image>
       <button onClick={randomNum}>Ask me a Yes or No Question</button>
       <p className="p-2 mt-5">{answer}</p>
+
     </div>
   );
 }

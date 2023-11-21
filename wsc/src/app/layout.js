@@ -3,6 +3,7 @@ import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
 
+
 export default function RootLayout({ children }) {
   return (
     <html
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
             alt="Home Icon"
             className="absolute left-5 top-5"
           />
+
         </Link>
         {children}
       </body>
