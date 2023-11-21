@@ -1,7 +1,8 @@
 import "./globals.css";
 
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+
 
 export default function RootLayout({ children }) {
   return (
@@ -16,9 +17,10 @@ export default function RootLayout({ children }) {
             src="/graphics/Home.svg"
             height={150}
             width={150}
-            alt="home button"
-            className="absolute m-5"
-          ></Image>
+            alt="Home Icon"
+            className="absolute left-5 top-5"
+          />
+
         </Link>
         {children}
       </body>

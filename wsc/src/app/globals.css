@@ -16,7 +16,8 @@
         @apply text-xl
     }
     button {
-        @apply text-3xl bg-orange5 text-lime0 p-3 rounded-2xl border-4 border-aqua2 m-36
+        @apply text-3xl p-2 m-5 bg-orange5 text-lime1 rounded-xl border-2 border-lime1
+
     }
     .content {
         @apply flex flex-col items-center

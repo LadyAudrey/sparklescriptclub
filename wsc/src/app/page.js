@@ -8,6 +8,7 @@ export default function Home() {
       <div className="flex flex-col sm:flex-row justify-around">
         <div className="content">
           <h2 className="place-self- mb-10">Magic 8-Ball game</h2>
+
           <Link href="/8ball">
             <Image
               src="/graphics/8Ball.svg"
@@ -26,6 +27,8 @@ export default function Home() {
               height={200}
               width={200}
               alt="Duckie"
+              className="m-5"
+
             ></Image>
           </Link>
         </div>

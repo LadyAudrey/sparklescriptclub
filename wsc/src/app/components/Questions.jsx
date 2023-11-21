@@ -1,7 +1,5 @@
 "use client";
 
-import React from "react";
-import Image from "next/image";
 import { useState } from "react";
 
 const questionArr = [
@@ -14,13 +12,9 @@ const questionArr = [
   "You've Got This",
 ];
 
-const solutionFound =
-  "Congrats! Make sure to pat yourself on the back and take a break before going onto the next thing";
-
-export default function eight_ball() {
-  // create state
+export default function Questions(props) {
+  const [achieved] = props.achieved;
   let [question, setQuestion] = useState(0);
-  let [achieved, setAchieved] = useState(false);
   const nextQuestion = () => {
     console.log(question);
     setQuestion((question = question + 1));
@@ -29,13 +23,11 @@ export default function eight_ball() {
     setAchieved(true);
   };
   return (
-    <div className="flex flex-col items-center justify-around">
-      <h1>Sparkle Script Club</h1>
-      <h2>Debugging Support</h2>
+    <div>
       <div className="grid grid-cols-2">
         <div className="col-start-1 col-span-1 row-start-1 row-span-1 m-20 place-content-center">
-          {achieved ? <p>{solutionFound}</p> : <p>{questionArr[question]}</p>}
-          <button className="p-1" onClick={nextQuestion}>
+          <p>{questionArr[question]}</p>
+          <button className="absolute bottom-20 left-40" onClick={nextQuestion}>
             Next Question, Please
           </button>
         </div>
@@ -45,11 +37,12 @@ export default function eight_ball() {
             height={150}
             width={150}
             alt="cute duck"
-            className="col-start-2 col-span-1 row-start-1 row-span-1"
+            className="col-start-2 col-span-1 row-start-1 row-span-1 place-self-center"
           ></Image>
-          <button onClick={successAchieved}>I found the Bug!</button>
+          <button className="absolute bottom-20" onClick={successAchieved}>
+            I found the Bug!
+          </button>
         </div>
-
       </div>
     </div>
   );
