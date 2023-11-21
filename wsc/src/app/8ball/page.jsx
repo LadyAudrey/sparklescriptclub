@@ -26,17 +26,17 @@ export default function eight_ball() {
   // call random number Fx with onclick
   // put return statement into p tag
   return (
-    <div className="flex flex-col items-center justify-around">
+    <div className="h-screen flex flex-col place-items-center">
       <h1>Welcome to Sparkle Script Club!</h1>
-      <h2>Magic 8-Ball game</h2>
+      <h2 className="m-10">Magic 8-Ball game</h2>
       <Image
         src="/graphics/8Ball.svg"
         height={300}
         width={300}
         alt="8-Ball Graphic"
       ></Image>
-      <h3 onClick={randomNum}>Ask me a Yes or No Question</h3>
-      <p>{answer}</p>
+      <button onClick={randomNum}>Ask me a Yes or No Question</button>
+      <p className="p-2 mt-5">{answer}</p>
     </div>
   );
 }
