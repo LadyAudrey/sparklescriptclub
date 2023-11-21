@@ -49,6 +49,8 @@ This is a pretty simple app and I'm pleased that I was able to make it so easily
 
 ## 🚀 What's next for SelfWatch
 
+It's currently unsuccessfully deployed on Vercel; will fix this in the next week.
+
 8-ball game
 
 - Add a pop-up upon loading explaining that this is a game, not divination
