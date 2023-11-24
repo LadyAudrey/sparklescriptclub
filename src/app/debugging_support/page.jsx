@@ -17,7 +17,7 @@ const questionArr = [
 const solutionFound =
   "Congrats! Make sure to pat yourself on the back and take a break before going onto the next thing";
 
-export default function eight_ball() {
+export default function DebuggingSupportPg() {
   // create state
   let [question, setQuestion] = useState(0);
   let [achieved, setAchieved] = useState(false);
@@ -49,7 +49,6 @@ export default function eight_ball() {
           ></Image>
           <button onClick={successAchieved}>I found the Bug!</button>
         </div>
-
       </div>
     </div>
   );

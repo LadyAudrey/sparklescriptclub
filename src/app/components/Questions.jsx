@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 
+import Image from "next/image";
+
 const questionArr = [
   "Hi! I'm Duckie. Let's work on finding a bug together! How this works is I'll ask you a series of questions. Each question is designed to help you think through the problem methodically and with self-kindness. After a lot of questions, if you haven't found the bug, I'll encourage you to take a break and come back to it soon. If you do find the bug, hit the button that says 'I found it!' and we'll celebrate your success.",
   "Are all of your quotes and brackets in the right places?",
